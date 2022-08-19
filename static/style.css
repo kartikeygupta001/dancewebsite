@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap');
+*{
+    margin:0;
+    padding: 0;}
+#navbar{
+    background-color: #812881;
+    padding: 13px;
+}
+#navbar ul{
+display: flex;
+flex-direction: row;
+justify-content: center;
+}
+#navbar li{
+    list-style: none;
+
+}
+#navbar li a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    padding: 11px 35px;
+    font-family: 'Baloo 2', cursive;}
+#navbar li a:hover{
+    color: black;
+}
+#logo{
+    display: flex;
+    align-items:center;
+    margin: 0 14px;
+}
+#logo img {
+    height: 30px;
+   width: 35px;
+}
+
+#introsection{
+    display: flex;
+    flex-direction: column;
+    background: center / cover no-repeat url("/static/mu.jpg") ;
+    height: 400px;
+    background-color: blueviolet;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-family: 'Yeon Sung', cursive;
+}
+#introsection h1{
+ font-size:43px;
+}
+#introsection p{
+ font-size:32px;
+}
+#missionsection{
+    height:65%;
+    margin: auto;
+    width: 80%;
+
+}
+#missionsection h1 {
+    font-size: 30px;
+   text-align: center;
+   padding-top: 10px;
+   font-family: 'Yeon Sung', cursive;
+
+}
+.mission{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 73%;
+    
+
+}
+.card{
+    display: inline-block;
+    margin: auto;
+    border:2px solid black;
+    border-radius: 10px;
+    width: 28%;
+    height: 11rem;
+    margin: 24px;
+}
+.card h4{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin:10px;
+}
+.card-box{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.card-img{
+    height: 100px;
+    padding: 10px;
+}
+.card-img img{
+height: inherit;
+padding: 0 14px;
+}
+.card-content p{
+    padding: 2px 0px;
+    
+
+}
+
+#sponserssection{
+    height: 450px;
+    background-color:#eeb5f3;
+    
+
+}
+#sponserssection h2{
+    font-size: 30px;
+font-family: 'Yeon Sung', cursive;
+padding-top: 10px;
+text-align: center;}
+#sponsors{
+    display: flex;
+    height: 65px;
+    justify-content: space-evenly;
+    margin: 132px;}
+   
+#footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 28px;
+    font-size: 15px;
+    background-color:#2a0c2a;
+    color:white;
+    font-family: 'Yeon Sung', cursive;
+}

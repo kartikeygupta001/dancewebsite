@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
+
+
+.container{
+    padding: 60px;
+     color: white;
+
+}
+#container h1{
+    font-size: 25px;
+    color: #f9ff9f;
+}
+
+#container h3{
+    font-size: 17px;
+    color:#cfcaf9;
+}
+
+
+#container p{
+    text-align: center;
+    font-size: 15px;
+    color: white;
+}
+
+#container{
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: 'Yeon Sung', cursive;
+}
+
+#container::before{
+    content: "";
+    background: url("/static/bg.jpg") no-repeat center center/cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.8;
+   
+}
+
+
+#container hr{
+    
+    width: 100%;
+    border:  1px solid white
+   
+}
+#container h2{
+    font-family: 'Baloo 2', cursive;
+    font-size: 2.2rem;
+    color: white;
+}
+
+@media (max-width:1000px) {
+    
+    #navbar li a {
+        font-size: 28px;
+    }
+    #navbar {
+        
+        padding: 20px;}
+        #container{
+            height: 2000px;
+        }
+        #container::before{
+            height: 2000px;
+        }
+        #logo img {
+            height: 35px;
+            width: 45px;
+        }
+        #container h2{
+            font-size: 45px;
+        }
+        #container h1{
+            font-size: 38px;
+        }
+        #container h3{
+            font-size: 28px;
+        }
+        #container p{
+            font-size: 22px;
+        }
+        
+#footer{
+    font-size: 25px;
+    height: 40px;
+}}

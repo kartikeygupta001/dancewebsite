@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height:100%;
+    font-family: 'Yeon Sung', cursive;
+}
+.container h1{
+    font-family: 'Baloo 2', cursive;
+}
+.container h2{
+    font-size: 20px;
+}
+
+
+.container::before{
+    content: "";
+    background: url("/static/gar.jpg") no-repeat center center/cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.6;
+   
+    left:0px; 
+}
+.container hr{
+    
+    width: 100%;
+    
+   
+}
+@media (max-width:1000px) {
+   
+    #navbar li a {
+        font-size: 28px;
+    }
+    #navbar {
+        
+        padding: 20px;
+    }
+    
+    .container{
+        height: 2000px;
+    }
+    .container::before{
+        height: 2000px;
+    }
+    #logo img {
+        height: 35px;
+        width: 45px;
+    }
+    .container h1{
+        font-size:45px;
+    }
+    .container h2{
+        font-size:27px;
+    }
+#footer{
+    font-size: 25px;
+    height: 40px;
+}}
+    
+    
+
+
+
+

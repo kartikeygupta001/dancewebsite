@@ -1,0 +1,70 @@
+@media (max-width:1000px) {
+    
+
+    #sponserssection {
+        height: 800px;
+       
+    }
+    
+    #missionsection {
+        height: 900px;
+    }
+    .mission{
+        flex-direction: column;
+        height: 800px;
+    }
+    .card{
+        width:45%
+    }
+    #sponsors{
+        flex-direction: column;
+    align-items: center;
+    margin-top: 325px;
+    
+}
+    
+    #sponsors img{
+        height: 100%;
+    width: 24%;
+    padding: 40px;
+    }
+    #navbar li a {
+        font-size: 28px;
+    }
+    #navbar {
+        
+        padding: 20px;
+    }#logo img {
+        height: 35px;
+        width: 45px;
+    }
+    #introsection {
+        height: 500px;
+    }
+    #introsection h1 {
+        font-size: 57px;
+    }
+    #introsection p {
+        font-size: 44px;
+    }
+    .card h4 {
+        font-size: 21px;  
+    }
+    .card-content{
+        font-size: 18px;
+    }
+
+    #missionsection h1 {
+        font-size: 38px;}
+        #sponserssection h2 {
+            font-size: 40px;
+}
+#footer{
+    font-size: 25px;
+    height: 40px;
+}
+}
+
+
+   
+   
