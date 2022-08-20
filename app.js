@@ -1,15 +1,17 @@
 const express = require("express");
 const  path = require("path");
 const app = express();
-const mongoose = require('mongoose')
+const mongoose = require('mongoose');
 
 
 
-main().catch(err => console.log(err));
 
-async function main() {
-  await mongoose.connect('mongodb://localhost:27017/contactDance');
-}
+const DB='mongodb+srv://kartikeygupta:guptakartikey@cluster0.taass9f.mongodb.net/contactDance?retryWrites=true&w=majority'
+
+   mongoose.connect(DB).then(() => {
+    console.log(`connection successful`);
+  }).catch((err) => console.log(`no connection`)
+);
 
 const port = process.env.PORT || 80;
 
