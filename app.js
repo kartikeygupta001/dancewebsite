@@ -51,9 +51,10 @@ app.get('/contact', (req, res) => {
   app.post('/contact', (req, res)=>{
     var myData = new Contact(req.body);
     myData.save().then(()=>{
-    res.status(200).send("Your form has been submitted successfully")
+      res.status(200).send("Your form has been submitted successfully")
+    
     }).catch(()=>{
-    res.status(400).send(" Your form is not submitted")
+    res.status(400).send("Your form is not submitted")
 })
 })
 
